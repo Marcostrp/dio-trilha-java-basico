@@ -4,9 +4,16 @@ public class Operadores {
         int numero2 = 15;
         String nome = "Marcos";
         String nome2 = "Marcos Tulio";
+        boolean condicao1 = true;
+        boolean condicao2 = true;
 
 
         boolean simNao = numero1 == numero2; // compara a igualdade entre as variaveis
+        if (condicao1 && condicao2) {
+            System.out.println("As duas condições são verdadeiras!");
+        } else {
+            System.out.println("Uma das condições é falsa!");;
+        }
 
         System.out.println("Numero 1 é igual ao numero 2? " + simNao);
         if(numero1 > numero2) {
